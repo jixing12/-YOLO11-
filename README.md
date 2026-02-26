@@ -49,6 +49,7 @@
     采用YOLO11人脸识别技术融合生物特征、饮食数据及营养学模型，实现动态三餐定制，突破现有工具在数据整合与个性化推荐上的局限，使健康管理方案精准度提升40%。
 2.  **智能问答与深度用户交互**
     基于DeepSeekAPI构建的智能问答系统，通过自然语言处理技术实时解答健康疑问，交互响应速度达毫秒级，有效解决传统工具交互单一的问题。
+<img width="436" height="177" alt="image" src="https://github.com/user-attachments/assets/e220c81f-4769-489b-a55c-dde94b2631ef" />
 
 （图1 研究路线图）
 
@@ -66,8 +67,18 @@
 10. **接口集成与参数调优**：注册SiliconFlow平台，获取DeepSeekAPI，通过Vue3调用实现智能问答服务。灵活设置参数，优化问答响应效果。
 11. **文本数据清洗与建模**：对DeepSeek生成的问答数据进行预处理，包括去除停用词、词干提取等，构建TF-IDF权重矩阵。采用Gensim库训练LDA模型，提取高频健康主题，实现用户健康需求的趋势洞察与可视化呈现。
 12. **容器化与自动化部署**：使用Docker对Django（Gunicorn+Nginx）、SpringBoot（Jar包）、Vue3（Nginx）等模块进行镜像打包，依托Kubernetes实现容器自动化编排与扩缩容管理。通过持续集成与监控体系，确保系统稳定运行，实现项目在腾讯云环境下的高效部署与运维。
+<img width="325" height="250" alt="image" src="https://github.com/user-attachments/assets/fc279398-0fd3-4216-8669-8ac98de6cd43" />
 
 （图2 技术路线图）
+<img width="438" height="480" alt="image" src="https://github.com/user-attachments/assets/e4c2f5ea-29e1-44aa-9fb6-eb58d6da8045" />
+
 （图3 技术体系图）
+## 演示图片
+<img width="263" height="188" alt="image" src="https://github.com/user-attachments/assets/1ee82f35-7fbb-43f3-a595-492044130839" />
+<img width="230" height="208" alt="image" src="https://github.com/user-attachments/assets/8d6bbe6c-55fe-4db9-b9df-27cabda9c9c3" />
+<img width="246" height="219" alt="image" src="https://github.com/user-attachments/assets/2dd9665a-e848-4641-97f5-801a19a34f8b" />
+<img width="455" height="240" alt="image" src="https://github.com/user-attachments/assets/2fe07dba-51b8-4eb7-be9c-9d1ff5329388" />
+<img width="392" height="311" alt="image" src="https://github.com/user-attachments/assets/dee72607-7acb-4a08-80c2-b8ef830819a5" />
+
 
 
